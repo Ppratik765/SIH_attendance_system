@@ -6,7 +6,7 @@ import time
 
 def get_public_url():
     """Start ngrok tunnel and return public URL"""
-    conf.get_default().auth_token = "32gDXrlaNrndK3SdKLuPEdERKQy_5BuQFA6ptKT74LW37sAAs"
+    conf.get_default().auth_token = "YOUR_AUTH_TOKEN"
     tunnel = ngrok.connect(5000, "http")
     return tunnel.public_url
 
@@ -35,3 +35,4 @@ if __name__ == "__main__":
 
 
     root.mainloop()
+
