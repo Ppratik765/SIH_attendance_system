@@ -7,3 +7,4 @@ attendance_system/
 ├── qr_front.py
 ├── present.txt
 └── absent.txt
+ You need an ngok account to continue with this
